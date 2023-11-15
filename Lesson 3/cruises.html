@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cruise</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menu-icon" />
+      <label id="menu-toggle" for="menu-icon"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img id="logo-svg" src="SVG.svg" />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#Package">Package Tours</a>
+          <ul class="sub-menu">
+            <li><a href="japan.html">Japan</a></li>
+            <li><a href="dubai.html">Dubai</a></li>
+            <li><a href="swiss.html">Switzerland</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="rediscover.html">Rediscover Singapore</a>
+        </li>
+        <li><a href="cruises.html">Cruises</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div id="video">
+      <video width="100%" autoplay loop muted>
+        <source
+          src="video/video_of_star_cruises (Original)(1).mp4"
+          type="video/mp4"
+        />
+      </video>
+      <img src="images/pexels-george-desipris-945177.jpg" class="replacement-image"/>
+      <div class="header-text-overlay">Cruise <p>Setting Sail on a Journey of A Lifetime</p></div>
+    </div>
+
+   
+    <section class="tours">
+      <div class="title">
+        <h2>Explore Our Tours</h2>
+      </div>
+      <div class="tour-box">
+        <img src="images/pexels-pixabay-144237.jpg" alt="Quick Getaway" />
+        <h3>Quick Getaways</h3>
+        <p>
+          Experience a quick getaway aboard our luxurious cruise, offering
+          breathtaking views and unforgettable moments.
+        </p>
+      </div>
+      <div class="tour-box">
+        <img src="images/pexels-pixabay-69122.jpg" alt="Spectrum Of the Seas" />
+        <h3>Spectrum Of the Seas</h3>
+        <p>
+          Embark on a voyage with the Spectrum Of the Seas cruise ship, where
+          you'll discover a world of excitement and adventure.
+        </p>
+      </div>
+      <div class="tour-box">
+        <img
+          src="images/pexels-george-desipris-945177.jpg"
+          alt="Anthem Of The Seas"
+        />
+        <h3>Anthem Of The Seas</h3>
+        <p>
+          Explore the stunning Anthem Of The Seas cruise, featuring
+          state-of-the-art amenities, entertainment, and relaxation.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="contain">
+          <div class="col">
+            <h1>Package Tours</h1>
+            <ul>
+              <li><a href="japan.html">Japan</a></li>
+              <li><a href="dubai.html">Dubai</a></li>
+              <li><a href="swiss.html">Switzerland</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1><a href="rediscover.html">Rediscover Singapore</a>
+          </div>
+          <div class="col">
+            <h1><a href="cruises.html">Cruises</a></h1>
+          </div>
+          <div class="col">
+            <h1><a href="contact.html">Contact</a></h1>
+          </div>
+        </div>
+      </div>
+      <p>&copy; 2023 World Explorer</p>
+    </footer>
+    <script>
+      document.getElementById('menu-icon').addEventListener('change', function () {
+          var navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('show', this.checked);
+      });
+  </script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Xplore</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/6.4.2/css/font-awesome.css" rel="stylesheet">  
+  </head>
+  <body>
+    <header>
+        <input type="checkbox" id="menu-icon" />
+        <label id="menu-toggle" for="menu-icon"><i class="fa-solid fa-bars"></i></label>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img id="logo-svg" src="SVG.svg" />
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#Package">Package Tours</a>
+            <ul class="sub-menu">
+              <li><a href="japan.html">Japan</a></li>
+              <li><a href="dubai.html">Dubai</a></li>
+              <li><a href="swiss.html">Switzerland</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="rediscover.html">Rediscover Singapore</a>
+          </li>
+          <li><a href="cruises.html">Cruises</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="video">
+      <video width="100%" class="homeVideo" autoplay loop muted>
+        <source src="video/pexels-hide-6602522 (1080p).mp4" type="video/mp4" />
+      </video>
+      <img src="images/pexels-abid-bin-nazar-10593605.jpg" class="replacement-image"/>
+      <div class="header-text-overlays">
+        World Explorer
+        <p>Come with us and Explore the world</p>
+      </div>
+    </div>
+    <section>
+      <article id="article1">
+        <h2>Japan</h2>
+        <div class="zoom-container">
+          <img src="images/DSC00304.JPG" />
+  
+        </div>
+       <a href="/" > <button>Lets go</button></a>
+      </article>
+      <article id="article2">
+        <h2>Cruise</h2>
+        <div class="zoom-container">
+          <img src="images/pexels-matthew-barra-813011.jpg" />
+       
+          
+       <a href="cruises.html"></div><button>Lets go</button></a> 
+      </article>
+      <article id="article3">
+        <h2>Rediscover</h2>
+        <div class="zoom-container">
+          <img src="images/pexels-timo-volz-1842332.jpg" />
+        
+        </div>  
+        <a href="rediscover.html"><button>Lets go</button></a> 
+      </article>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="contain">
+          <div class="col">
+            <h1>Package Tours</h1>
+            <ul>
+              <li><a href="japan.html">Japan</a></li>
+              <li><a href="dubai.html">Dubai</a></li>
+              <li><a href="swiss.html">Switzerland</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1><a href="rediscover.html">Rediscover Singapore</a>
+          </div>
+          <div class="col">
+            <h1><a href="cruises.html">Cruises</a></h1>
+          </div>
+          <div class="col">
+            <h1><a href="contact.html">Contact</a></h1>
+          </div>
+        </div>
+      </div>
+      <p>&copy; 2023 World Explorer</p>
+    </footer>
+    <script>
+      document.getElementById('menu-icon').addEventListener('change', function () {
+          var navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('show', this.checked);
+      });
+  </script>
+  </body>
+</html>

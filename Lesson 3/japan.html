@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japan ackage</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menu-icon" />
+      <label id="menu-toggle" for="menu-icon"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img id="logo-svg" src="SVG.svg" />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#Package">Package Tours</a>
+          <ul class="sub-menu">
+            <li><a href="japan.html">Japan</a></li>
+            <li><a href="dubai.html">Dubai</a></li>
+            <li><a href="swiss.html">Switzerland</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="rediscover.html">Rediscover Singapore</a>
+        </li>
+        <li><a href="cruises.html">Cruises</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div id="video">
+        <video width="100%"  autoplay loop muted>
+          <source src="video/pexels-cheng-cj-14952031 (1440p).mp4" type="video/mp4" />
+        </video>
+        <img src="images/DSC00248.JPG" class="replacement-image"/>
+      <div class="header-text-overlays">Japan Package
+        <p>
+          
+        </p>
+      </div>
+     
+      </div>
+    
+  
+      <section class="tours">
+        <div class="title">
+          <h2>Explore Our Japan Tours</h2>
+        </div>
+        
+        <div class="tour-box">
+          <img src="images/pexels-nick-kwan-2614818.jpg" alt="Tokyo Gardens By The Bay" />
+          <h3>Tokyo</h3>
+          <p>
+            Discover the bustling metropolis of Tokyo and immerse yourself in the green oasis at Gardens by the Bay.
+          </p>
+        </div>
+        
+        <div class="tour-box">
+          <img src="images/pexels-tomáš-malík-3408354.jpg" alt="Mount Fuji" />
+          <h3>Mount Fuji</h3>
+          <p>Embark on an awe-inspiring journey to Mount Fuji, a symbol of Japan's natural beauty.</p>
+        </div>
+        
+        <div class="tour-box">
+          <img src="images/DSC00904.JPG" alt="Kyoto" />
+          <h3>Kyoto</h3>
+          <p>
+            Explore the cultural capital of Kyoto, known for its historic temples, traditional tea houses, and stunning landscapes.
+          </p>
+        </div>
+        
+        <div class="tour-box">
+          <img src="images/DSC00980.JPG" alt="Nara" />
+          <h3>Nara</h3>
+          <p>
+            Immerse yourself in the beauty of Nara and its historical sites, including the iconic Todai-ji Temple and friendly deer roaming freely.
+          </p>
+        </div>
+        
+        <div class="tour-box">
+          <img src="images/DSC01275.JPG" alt="Yokohama" />
+          <h3>Yokohama</h3>
+          <p>Discover the vibrant city of Yokohama, known for its waterfront attractions, modern architecture, and lively atmosphere.</p>
+        </div>
+        
+        <div class="tour-box">
+          <img src="images/DSC00254.JPG" alt="Cultural Visit" />
+          <h3>Cultural Visit</h3>
+          <p>
+            Experience the rich culture of Japan by visiting well-known temples, including the historic Asakusa Temple.
+          </p>
+        </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="contain">
+          <div class="col">
+            <h1>Package Tours</h1>
+            <ul>
+              <li><a href="japan.html">Japan</a></li>
+              <li><a href="dubai.html">Dubai</a></li>
+              <li><a href="swiss.html">Switzerland</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1><a href="rediscover.html">Rediscover Singapore</a>
+          </div>
+          <div class="col">
+            <h1><a href="cruises.html">Cruises</a></h1>
+          </div>
+          <div class="col">
+            <h1><a href="contact.html">Contact</a></h1>
+          </div>
+        </div>
+      </div>
+      <p>&copy; 2023 World Explorer</p>
+    </footer>
+    <script>
+      document.getElementById('menu-icon').addEventListener('change', function () {
+          var navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('show', this.checked);
+      });
+  </script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiss Package</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menu-icon" />
+      <label id="menu-toggle" for="menu-icon"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img id="logo-svg" src="SVG.svg" />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#Package">Package Tours</a>
+          <ul class="sub-menu">
+            <li><a href="japan.html">Japan</a></li>
+            <li><a href="dubai.html">Dubai</a></li>
+            <li><a href="swiss.html">Switzerland</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="rediscover.html">Rediscover Singapore</a>
+        </li>
+        <li><a href="cruises.html">Cruises</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div id="video">
+        <video width="100%" autoplay loop muted>
+          <source src="video/video (1080p).mp4" type="video/mp4" />
+        </video>
+        <img src="images/pexels-munozphoto-19024749.jpg" class="replacement-image"/>
+      <div class="header-text-overlays">Switzerland Package
+        <p>
+          
+        </p>
+      </div>
+     
+      </div>
+    
+  
+      <section class="tours">
+        <div class="title">
+          <h2>Explore Our Switzerland Tours</h2>
+        </div>
+      
+        <div class="tour-box">
+          <img src="images/pexels-damien-schnorhk-7440149.jpg" alt="Switzerland City" />
+          <h3>Swiss Alps Adventure</h3>
+          <p>
+            Embark on an unforgettable adventure in the Swiss Alps. Experience breathtaking landscapes and charming mountain villages.
+          </p>
+        </div>
+      
+        <div class="tour-box">
+          <img src="images/pexels-otto-kh-13059250.jpg" alt="Swiss Lakes" />
+          <h3>Scenic Lakes Tour</h3>
+          <p>
+            Discover the beauty of Swiss lakes with a scenic tour. Enjoy picturesque views, boat rides, and charming lakeside towns.
+          </p>
+        </div>
+      
+        <div class="tour-box">
+          <img src="images/pexels-munozphoto-19024749.jpg" alt="Swiss Countryside" />
+          <h3>Countryside Retreat</h3>
+          <p>
+            Immerse yourself in the tranquility of the Swiss countryside. Explore rolling hills, meadows, and traditional Swiss villages.
+          </p>
+        </div>
+      </section>
+      
+      
+      <footer>
+        <div class="footer">
+          <div class="contain">
+            <div class="col">
+              <h1>Package Tours</h1>
+              <ul>
+                <li><a href="japan.html">Japan</a></li>
+                <li><a href="dubai.html">Dubai</a></li>
+                <li><a href="swiss.html">Switzerland</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h1><a href="rediscover.html">Rediscover Singapore</a>
+            </div>
+            <div class="col">
+              <h1><a href="cruises.html">Cruises</a></h1>
+            </div>
+            <div class="col">
+              <h1><a href="contact.html">Contact</a></h1>
+            </div>
+          </div>
+        </div>
+        <p>&copy; 2023 World Explorer</p>
+      </footer>
+      <script>
+        document.getElementById('menu-icon').addEventListener('change', function () {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show', this.checked);
+        });
+    </script>
+  </body>
+</html>

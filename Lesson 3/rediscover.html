@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rediscover Singapore</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menu-icon" />
+      <label id="menu-toggle" for="menu-icon"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img id="logo-svg" src="SVG.svg" />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#Package">Package Tours</a>
+          <ul class="sub-menu">
+            <li><a href="japan.html">Japan</a></li>
+            <li><a href="dubai.html">Dubai</a></li>
+            <li><a href="swiss.html">Switzerland</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="rediscover.html">Rediscover Singapore</a>
+        </li>
+        <li><a href="cruises.html">Cruises</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="header-image">
+      <img src="images/pexels-kin-pastor-777059.jpg" alt="Header Image" />
+      <div class="header-text-overlay">Rediscover Singapore
+        <p>
+          Rediscover Singapore is your gateway to exploring the vibrant culture,
+          stunning architecture, and delectable cuisine of Singapore. We offer a
+          wide range of tours and experiences to make your journey unforgettable.
+        </p>
+      </div>
+     
+      </div>
+    
+  
+    <section class="tours">
+      <div class="title">
+        <h2>Explore Our Tours</h2>
+      </div>
+      <div class="tour-box">
+        <img src="images/pexels-pixabay-326787.jpg" alt="Marina Bay Sands" />
+        <h3>Marina Bay Sands</h3>
+        <p>
+          Experience the iconic Marina Bay Sands and its breathtaking views.
+        </p>
+      </div>
+      <div class="tour-box">
+        <img src="images/pexels-addie-3152126.jpg" alt="Gardens By The Bay" />
+        <h3>Tour 2: Gardens by the Bay</h3>
+        <p>
+          Discover the green oasis in the heart of the city at Gardens by the
+          Bay.
+        </p>
+      </div>
+      <div class="tour-box">
+        <img src="images/pexels-medina-loh-5972167.jpg" alt="Tour 3" />
+        <h3>Tour 3: Jewel</h3>
+        <p>
+          Explore the stunning Jewel Changi Airport with its lush greenery and
+          indoor waterfall.
+        </p>
+      </div>
+      <div class="tour-box">
+        <img src="images/pexels-alexey-komissarov-9022610.jpg" alt="Tour 4" />
+        <h3>Tour 4: Sentosa Island</h3>
+        <p>
+          Relax and have fun at the beautiful Sentosa Island with various
+          attractions.
+        </p>
+      </div>
+      <div class="tour-box">
+        <img src="images/pexels-towfiqu-barbhuiya-13557589.jpg" alt="Tour 5" />
+        <h3>Tour 5: Cultural Heritage</h3>
+        <p>Learn about Singapore's rich cultural heritage and traditions.</p>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="contain">
+        <div class="col">
+          <h1>Package Tours</h1>
+          <ul>
+            <li><a href="japan.html">Japan</a></li>
+            <li><a href="dubai.html">Dubai</a></li>
+            <li><a href="swiss.html">Switzerland</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1><a href="rediscover.html">Rediscover Singapore</a>
+        </div>
+        <div class="col">
+          <h1><a href="cruises.html">Cruises</a></h1>
+        </div>
+        <div class="col">
+          <h1><a href="contact.html">Contact</a></h1>
+        </div>
+      </div>
+    </div>
+    <p>&copy; 2023 World Explorer</p>
+  </footer>
+  <script>
+    document.getElementById('menu-icon').addEventListener('change', function () {
+        var navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('show', this.checked);
+    });
+</script>
+  </body>
+</html>
